@@ -24,6 +24,6 @@ driver.find_element(By.XPATH, "//*[@class='item-name' and text()='Pizza Tradicio
 desc_xpath = "//*[contains(@class, 'item-description') and contains(text(), 'Massa tradicional')]"
 WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.XPATH, desc_xpath)))
 
-print("Elemento visível com sucesso!")
+print("Elemento visível com sucesso!!")
 
 driver.quit()
